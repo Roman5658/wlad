@@ -412,7 +412,7 @@ h1 {
 
   15%,
   66% {
-    left: calc(50vw - 18rem);
+    left: calc(30vw - 18rem);
   }
 
   100% {
