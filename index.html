@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>С днём рождения, Влад!</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <main class="party-scene" aria-label="Поздравление для Влада">
+      <div class="sky-glow" aria-hidden="true"></div>
+      <div class="bottle-field" aria-hidden="true"></div>
+      <div class="confetti-field" aria-hidden="true"></div>
+
+      <section class="greeting" aria-labelledby="birthday-title">
+        <p class="kicker">Сегодня все дороги ведут к празднику</p>
+        <h1 id="birthday-title">Влад, с днём рождения!</h1>
+        <p class="wish">
+          Пусть в жизни будет скорость, стиль, удача и люди, которые всегда
+          поднимают настроение.
+        </p>
+        <button class="burst-button" type="button">Ещё салют</button>
+      </section>
+
+      <section class="ride" aria-label="Кот едет на Мерседесе с плакатом">
+        <div class="road-lights" aria-hidden="true"></div>
+        <div class="car-wrap">
+          <img
+            class="cat-car"
+            src="./assets/cat-mercedes.svg"
+            alt="Кот едет на чёрном кабриолете Mercedes"
+          />
+          <div class="banner" aria-label="Плакат: С днём рождения, Влад">
+            <span>С днём рождения,</span>
+            <strong>Влад!</strong>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 390" role="img" aria-labelledby="title desc">
+  <title id="title">Кот едет на чёрном кабриолете Mercedes</title>
+  <desc id="desc">Стилизованный кот в чёрном кабриолете с хромированной звездой на решетке.</desc>
+  <defs>
+    <style>
+      @keyframes wheelSpin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      .spokes {
+        animation: wheelSpin 520ms linear infinite;
+        transform-box: fill-box;
+        transform-origin: center;
+      }
+    </style>
+    <linearGradient id="bodyGradient" x1="90" x2="730" y1="214" y2="312" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#10131d"/>
+      <stop offset="0.42" stop-color="#262b38"/>
+      <stop offset="1" stop-color="#080910"/>
+    </linearGradient>
+    <linearGradient id="glassGradient" x1="260" x2="535" y1="118" y2="219" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9ae7ff" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#2b7eb8" stop-opacity="0.74"/>
+    </linearGradient>
+    <radialGradient id="wheelGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#d9e1e8"/>
+      <stop offset="0.18" stop-color="#8d99a6"/>
+      <stop offset="0.35" stop-color="#1d2028"/>
+      <stop offset="1" stop-color="#030408"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-20%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#000" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="410" cy="342" rx="315" ry="24" fill="#020309" opacity="0.4"/>
+
+  <g filter="url(#shadow)">
+    <path
+      d="M132 244c24-45 71-73 137-82l58-58c17-17 39-26 63-26h138c36 0 67 22 80 55l21 52c54 9 93 36 109 77l11 29c4 11-4 23-16 24l-76 5c-13-49-56-85-108-85-50 0-92 33-107 79H298c-15-46-57-79-107-79-52 0-95 36-108 85l-46-6c-18-2-27-22-17-37l20-30c22-33 55-56 92-99Z"
+      fill="url(#bodyGradient)"
+    />
+    <path
+      d="M318 120c14-14 33-22 53-22h134c26 0 50 16 60 40l22 51H246l72-69Z"
+      fill="#171b27"
+    />
+    <path
+      d="M340 124c9-8 21-13 34-13h54v78H267l73-65Z"
+      fill="url(#glassGradient)"
+      opacity="0.88"
+    />
+    <path
+      d="M450 111h54c18 0 35 11 42 28l19 50H450v-78Z"
+      fill="url(#glassGradient)"
+      opacity="0.82"
+    />
+    <path
+      d="M79 254c88 14 186 20 294 18 145-3 263-24 353-56"
+      fill="none"
+      stroke="#5c6471"
+      stroke-width="8"
+      stroke-linecap="round"
+      opacity="0.86"
+    />
+    <path
+      d="M112 257c91 11 193 16 306 13 95-3 183-13 263-31"
+      fill="none"
+      stroke="#f1f5f9"
+      stroke-width="3"
+      stroke-linecap="round"
+      opacity="0.4"
+    />
+    <path d="M612 207h72c26 2 44 15 55 40l-108 6c-16 0-28-10-31-25l-2-8c-2-7 5-14 14-13Z" fill="#ffd166"/>
+    <path d="M80 272h72c14 0 25 10 28 24l-103-5c-14-1-19-18-8-27 3-5 7-7 11-8Z" fill="#ff6b6b"/>
+    <path d="M364 213h91" stroke="#dce7f2" stroke-width="6" stroke-linecap="round" opacity="0.78"/>
+    <path d="M255 216h42" stroke="#dce7f2" stroke-width="6" stroke-linecap="round" opacity="0.78"/>
+
+    <g transform="translate(517 90)">
+      <path
+        d="M52 108c-26-3-46-21-50-46C-4 25 21 1 55 5c31 3 51 27 47 59-3 29-23 47-50 44Z"
+        fill="#f4b465"
+      />
+      <path d="M16 32 4 2l32 15Z" fill="#f4b465"/>
+      <path d="M78 28 99 4l5 36Z" fill="#f4b465"/>
+      <path d="M34 58c3 5 8 8 16 8s13-3 17-8" fill="none" stroke="#312219" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="37" cy="45" r="5" fill="#141414"/>
+      <circle cx="69" cy="44" r="5" fill="#141414"/>
+      <path d="M53 53 47 48h12Z" fill="#ff7a85"/>
+      <path d="M7 62H-22M11 75H-20M95 61h31M91 75h30" stroke="#fff4d7" stroke-width="4" stroke-linecap="round"/>
+      <path d="M24 17c16 9 35 9 55 0" fill="none" stroke="#7b4b28" stroke-width="5" stroke-linecap="round"/>
+      <path d="M19 108c26 16 58 16 85 0l18 85H2Z" fill="#f4b465"/>
+      <path d="M41 117c8 11 20 16 36 12" fill="none" stroke="#7b4b28" stroke-width="6" stroke-linecap="round"/>
+      <path d="M21 166c35 17 69 14 101-8" fill="none" stroke="#fff4d7" stroke-width="9" stroke-linecap="round"/>
+    </g>
+
+    <g transform="translate(604 246)">
+      <path d="M0-46 25-63l25 17-10 29H10Z" fill="#d8dde4" stroke="#f8fafc" stroke-width="4"/>
+      <path d="M25-58v37M8-42l34 21M42-42 8-21" stroke="#111827" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="25" cy="-40" r="5" fill="#111827"/>
+    </g>
+  </g>
+
+  <g>
+    <circle cx="191" cy="316" r="66" fill="#030408"/>
+    <circle cx="191" cy="316" r="44" fill="url(#wheelGradient)"/>
+    <circle cx="191" cy="316" r="13" fill="#f8fafc"/>
+    <path class="spokes" d="M191 277v78M152 316h78M164 289l55 55M219 289l-55 55" stroke="#cbd5e1" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  </g>
+  <g>
+    <circle cx="550" cy="316" r="66" fill="#030408"/>
+    <circle cx="550" cy="316" r="44" fill="url(#wheelGradient)"/>
+    <circle cx="550" cy="316" r="13" fill="#f8fafc"/>
+    <path class="spokes" d="M550 277v78M511 316h78M523 289l55 55M578 289l-55 55" stroke="#cbd5e1" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  </g>
+</svg>
