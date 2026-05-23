@@ -405,6 +405,21 @@ h1 {
   }
 }
 
+@keyframes driveAcrossMobile {
+  0% {
+    left: -34rem;
+  }
+
+  15%,
+  66% {
+    left: calc(50vw - 18rem);
+  }
+
+  100% {
+    left: 108vw;
+  }
+}
+
 @keyframes carBounce {
   50% {
     transform: translateY(-0.16rem);
@@ -465,12 +480,14 @@ h1 {
   .car-wrap {
     width: 32rem;
     bottom: 1.8rem;
-    animation-duration: 9.5s, 620ms;
+    animation:
+      driveAcrossMobile 9.8s ease-in-out infinite,
+      carBounce 620ms ease-in-out infinite;
   }
 
   .banner {
-    right: 0;
-    top: -18%;
+    right: 22%;
+    top: -17%;
     min-width: 10.6rem;
     padding: 0.55rem 0.65rem 0.6rem;
   }
